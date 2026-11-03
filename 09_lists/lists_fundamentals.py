@@ -263,3 +263,21 @@ letters = ['c', 'a', 'b']
 new_list = list(reversed(letters))
 print(f'Original List: {letters}')
 print(f'Reversed List: {new_list}')
+
+# Challenge
+warehouse = [
+    [['Laptop', 15], ['Mouse', 45], ['Keyboard', 0], ['Monitor', 8]],
+    [['Phone', 22], ['Tablet', 5], ['Charger', 120], ['Cable', 200]],
+    [['Printer', 3], ['Scanner', 0], ['Ink', 50], ['Paper', 300]],
+    [['Speaker', 14], ['Headset', 25], ['Webcam', 0], ['Microphone', 10]]
+]
+
+print(warehouse)
+
+sub_warehouse = []
+for i in range(len(warehouse)):
+    sub_warehouse += [warehouse[0:][i][0]]
+print(sub_warehouse)
+
+transposed_warehouse = [list(row) for row in zip(*warehouse)]
+print(transposed_warehouse)
