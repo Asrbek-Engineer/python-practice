@@ -182,3 +182,20 @@ process_user_email(email)
 print("=====LOG=====")
 read_log()
 print("=============")
+
+# Writing Clean Function
+def calculate_discount(price: float, rate: float) -> float:
+    """
+        Calculating the final price after applying a discount.
+        Args:
+            price (float):
+            rate (float): Discount Rate as number (e.g 20 for 20%)
+        Returns:
+            final_price (float): Final Price after applying discount.
+    """
+    final_price = price - (price * rate / 100)
+    return final_price
+
+help(calculate_discount)
+print("Calculating Discount")
+print(calculate_discount(80, 20))
