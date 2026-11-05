@@ -188,7 +188,7 @@ def calculate_discount(price: float, rate: float) -> float:
     """
         Calculating the final price after applying a discount.
         Args:
-            price (float):
+            price (float): Original price before discount
             rate (float): Discount Rate as number (e.g 20 for 20%)
         Returns:
             final_price (float): Final Price after applying discount.
