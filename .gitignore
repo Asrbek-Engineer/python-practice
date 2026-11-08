@@ -1,6 +1,7 @@
 __pycache__/
 .venv/
 .env
+*.log
 *_copy.*
 test2.txt
 temp_file.txt
