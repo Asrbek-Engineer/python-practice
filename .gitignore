@@ -5,4 +5,5 @@ __pycache__/
 *_copy.*
 test2.txt
 temp_file.txt
-TempFile.txt
+TempFile.txtrates.json
+new_states.json
