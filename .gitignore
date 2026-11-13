@@ -5,7 +5,9 @@ __pycache__/
 *_copy.*
 test2.txt
 temp_file.txt
-TempFile.txtrates.json
+TempFile.txt
+rates.json
 new_states.json
 new_names.csv
 new_dict_names.csv
+17_pandas/data/
